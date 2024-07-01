@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <label for="isim">Adınız</label>
+        <input type="text" placeholder="Adınız" value="Koray" readonly>
+        <input type="text" placeholder="Adınız" value="Koray" disabled>
+        <input type="text" maxlength="10" placeholder="Soyadınız" required><br>
+        <input type="password" placeholder="Şifreniz">
+        <input type="number" min="0" max="5">
+        <input type="email"><br>
+        <input type="checkbox" id="check" checked>
+        <label for="check">... okudum onaylıyorum.</label><br>
+        <input type="file" multiple><br>
+        <input type="radio" id="erkek" name="cinsiyet">
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="kadin" name="cinsiyet">
+        <label for="kadin">Kadın</label>
+        <input type="radio" id="kadin2" name="cinsiyet">
+        <label for="kadin2">Kadın2</label><br><br>
+        <div>
+            <div>Maaş aralığınızı giriniz:</div>
+            <label for="">30.000₺</label>
+            <input type="range" value="0">
+            <label for="">60.000₺</label>
+        </div><br><br>
+        <input type="color"> <br>
+        <input type="date">
+        <input type="week"><br>
+        <textarea rows="5" cols="50"></textarea><br>
+        <input type="submit" value="Gönder">
+        <input type="reset" value="Sıfırla"><br>
+
+        <select name="" id="">
+            <option value="lorem1">Lorem, ipsum.</option>
+            <option value="lorem2">Lorem, ipsum.</option>
+            <option value="lorem3">Lorem, ipsum.</option>
+            <option value="lorem4">Lorem, ipsum.</option>
+        </select>
+
+        <select name="" id="">
+            <optgroup label="türk markalari">
+                <option value="">vestel</option>
+                <option value="">vestel2</option>
+                <option value="">vestel3</option>
+            </optgroup>
+            <optgroup label="türk markalari">
+                <option value="">vestel</option>
+                <option value="">vestel2</option>
+                <option value="">vestel3</option>
+            </optgroup>
+        </select>
+
+    </form>
+    
+
+</body>
+</html>
